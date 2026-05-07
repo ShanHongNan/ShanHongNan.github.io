@@ -1,193 +1,247 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>单宏楠的主页丨ShanHongNan's Homepage</title>
-    <meta name="author" content="单宏楠, Shan HongNan">
-    <meta name="keywords" content="单宏楠, ShanHongNan">
-    <meta name="description" content="欢迎访问单宏楠的个人主页。Welcome to ShanHongNan's Homepage for research updates and personal insights.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="单宏楠, Shan HongNan" />
+    <meta name="keywords" content="单宏楠, ShanHongNan" />
+    <meta
+      name="description"
+      content="欢迎访问单宏楠的个人主页。Welcome to ShanHongNan's Homepage for research updates and personal insights."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Website Favicon -->
-    <link rel="icon" href="/Beijing_Normal_University_logo.svg.png" type="image/png" sizes="480x480">
+    <link
+      rel="icon"
+      href="/Beijing_Normal_University_logo.svg.png"
+      type="image/png"
+      sizes="480x480"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <script type="application/ld+json">
-        {
+      {
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "ShanHongNan's HomePage",
         "url": "https://ShanHongNan.github.io/"
-        }
+      }
     </script>
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-83HX0FJDKX"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-83HX0FJDKX"
+    ></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-83HX0FJDKX');
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-83HX0FJDKX");
     </script>
     <script>
-    var _hmt = _hmt || [];
-    (function() {
-    var hm = document.createElement("script");
-    hm.src = "https://hm.baidu.com/hm.js?569327ead1e8fbd8975aa117993bd4fb";
-    var s = document.getElementsByTagName("script")[0]; 
-    s.parentNode.insertBefore(hm, s);
-    })();
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?569327ead1e8fbd8975aa117993bd4fb";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
     </script>
     <style>
-        body {
-            background-color: #1e262f;
-            font-family: 'Spectral', serif;
-            color: #e0e0e0;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            font-size: 120%;
-        }
-        .container {
-            width: 100%;
-            max-width: 1200px;
-            margin: 50px auto 0;
-            padding: 20px;
-        }
-        .main-table {
-            width: 100%;
-            border-spacing: 10px;
-            border-collapse: separate;
-        }
-        .left-column {
-            width: 70%;
-            vertical-align: middle;
-            padding: 0;
-        }
-        .right-column {
-            width: 30%;
-            padding: 3.5%;
-            padding-top: 50px;
-            text-align: center;
-        }
-        .profile-photo {
-            width: 100%;
-            max-width: 240px;
-            aspect-ratio: 2 / 3;
-            object-fit: cover;
-            border-radius: 10px;
-        }
-        .chinese-name {
-            margin-top: 20px;
-            margin-bottom: 0;
-            font-size: 1.3em;
-        }
-        .name {
-            margin-top: 2px;
-            font-size: 1.3em;
-            font-weight: 400;
-        }
-        .links {
-            text-align: center;
-            margin-top: 40px;
-            margin-bottom: 60px;
-        }
-        .links a {
-            color: #55a2d9;
-            text-decoration: none;
-            margin: 0 10px;
-            font-weight: 700;
-            font-size: 120%;
-        }
-        .links a:hover {
-            text-decoration: underline;
-        }
-        a.custom-link {
-            color: #55a2d9;
-            text-decoration: none;
-        }
-        a.custom-link:hover {
-            text-decoration: underline;
-        }
-        .highlight {
-            color: #ffffff;
-            font-weight: 700;
-        }
-        hr {
-            border: 0;
-            border-top: 1px solid #e0e0e0;
-            margin: 20px 0;
-        }
-        heading {
-            font-size: 1.5em;
-            font-weight: 700;
-            display: block;
-            margin-bottom: 10px;
-        }
-        .footer-container {
-            width: 100%;
-            max-width: 1200px;
-            margin: 50px auto 0;
-            padding: 0 20px;
-        }
-        .footer {
-            text-align: right;
-            font-size: 0.9em;
-        }
-        .visually-hidden {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            margin: -1px;
-            padding: 0;
-            overflow: hidden;
-            clip: rect(0, 0, 0, 0);
-            white-space: nowrap;
-            border: 0;
-        }
+      body {
+        background-color: #1e262f;
+        font-family: "Spectral", serif;
+        color: #e0e0e0;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        font-size: 120%;
+      }
+      .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 50px auto 0;
+        padding: 20px;
+      }
+      .main-table {
+        width: 100%;
+        border-spacing: 10px;
+        border-collapse: separate;
+      }
+      .left-column {
+        width: 70%;
+        vertical-align: middle;
+        padding: 0;
+      }
+      .right-column {
+        width: 30%;
+        padding: 3.5%;
+        padding-top: 50px;
+        text-align: center;
+      }
+      .profile-photo {
+        width: 100%;
+        max-width: 240px;
+        aspect-ratio: 2 / 3;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      .chinese-name {
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-size: 1.3em;
+      }
+      .name {
+        margin-top: 2px;
+        font-size: 1.3em;
+        font-weight: 400;
+      }
+      .links {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 60px;
+      }
+      .links a {
+        color: #55a2d9;
+        text-decoration: none;
+        margin: 0 10px;
+        font-weight: 700;
+        font-size: 120%;
+      }
+      .links a:hover {
+        text-decoration: underline;
+      }
+      a.custom-link {
+        color: #55a2d9;
+        text-decoration: none;
+      }
+      a.custom-link:hover {
+        text-decoration: underline;
+      }
+      .highlight {
+        color: #ffffff;
+        font-weight: 700;
+      }
+      hr {
+        border: 0;
+        border-top: 1px solid #e0e0e0;
+        margin: 20px 0;
+      }
+      heading {
+        font-size: 1.5em;
+        font-weight: 700;
+        display: block;
+        margin-bottom: 10px;
+      }
+      .footer-container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 50px auto 0;
+        padding: 0 20px;
+      }
+      .footer {
+        text-align: right;
+        font-size: 0.9em;
+      }
+      .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1 class="visually-hidden">单宏楠的个人主页 | ShanHongNan's Homepage</h1>
 
     <div class="container">
-        <table class="main-table">
-            <tbody>
-                <tr>
-                    <td class="left-column">
-                        <p>Hi~我是北京师范大学电子信息专业的学生</p>
-                        <p>本网页主要记录一些生活与学习方面的笔记 ^_^</p>
-                        <div class="links">
-                            <a href="mailto:danhongnan@gmail.com">Email</a> | 
-                            <a href="https://scholar.google.com/citations?user=SGD7zqEAAAAJ&hl" target="_blank" rel="noopener">Google Scholar</a> | 
-                            <a href="https://www.researchgate.net/profile/Shan-Hongnan" target="_blank" rel="noopener">ResearchGate</a> | 
-                            <a href="https://github.com/ShanHongNan" target="_blank" rel="noopener">GitHub</a>
-                        </div>
-                    </td>
-                    <td class="right-column">
-                        <img src="Portrait3.jpg" alt="单宏楠的个人头像" class="profile-photo">
-                        <p class="chinese-name">单宏楠</p>
-                        <p class="name">Shan HongNan</p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <table style="width:100%;border-spacing:0px;border-collapse:separate;">
-            <tbody>
-                <tr>
-                    <td style="padding:20px;">
-                        <heading>📝 Diaries Notes and Sketches</heading>
-                        <hr>
-                        <p>[To be added later]</p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+      <table class="main-table">
+        <tbody>
+          <tr>
+            <td class="left-column">
+              <p>
+                Hi~I am a student majoring in Electronic Information at
+                <a
+                  href="https://english.bnu.edu.cn/"
+                  target="_blank"
+                  class="custom-link"
+                >
+                  Beijing Normal University </a
+                >.
+              </p>
+
+              <p>
+                This website mainly records some notes about daily life and
+                study ^_^
+              </p>
+
+              <p>Hi~我是北京师范大学电子信息专业的学生 :)</p>
+
+              <p>本网页主要记录一些生活与学习方面的笔记 ^_^</p>
+              <div class="links">
+                <a href="mailto:danhongnan@gmail.com">Email</a> |
+                <a
+                  href="https://scholar.google.com/citations?user=SGD7zqEAAAAJ&hl"
+                  target="_blank"
+                  rel="noopener"
+                  >Google Scholar</a
+                >
+                |
+                <a
+                  href="https://www.researchgate.net/profile/Shan-Hongnan"
+                  target="_blank"
+                  rel="noopener"
+                  >ResearchGate</a
+                >
+                |
+                <a
+                  href="https://github.com/ShanHongNan"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
+              </div>
+            </td>
+            <td class="right-column">
+              <img
+                src="Portrait3.jpg"
+                alt="单宏楠的个人头像"
+                class="profile-photo"
+              />
+              <p class="chinese-name">单宏楠</p>
+              <p class="name">Shan HongNan</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table
+        style="width: 100%; border-spacing: 0px; border-collapse: separate"
+      >
+        <tbody>
+          <tr>
+            <td style="padding: 20px">
+              <heading>📝 Diaries Notes and Sketches</heading>
+              <hr />
+              <p>[To be added later]</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
     <div class="footer-container">
-        <div class="footer">
-            Updated at May, 2025.
-        </div>
+      <div class="footer">Updated at May, 2025.</div>
     </div>
-</body>
+  </body>
 </html>
